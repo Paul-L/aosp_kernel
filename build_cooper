@@ -1,3 +1,0 @@
-#!/bin/sh
-make aosp_cooper_defconfig
-make -j2

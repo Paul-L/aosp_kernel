@@ -1,0 +1,4 @@
+#!/bin/sh
+make aosp_tass_defconfig
+make -j6 ARCH=arm CFLAGS=-O3 CFLAGS=-ffast-math AFLAGS=-ffast-math CROSS_COMPILE=arm-linux-gnueabi-
+
